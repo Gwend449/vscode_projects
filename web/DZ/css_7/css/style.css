@@ -1,0 +1,258 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+	background-color: #e8e8e8;
+}
+
+.cmm {
+	padding: 125px 308px 103px 290px;
+	border: 1px solid #000;
+}
+
+h1 {
+	margin-bottom: 24px;
+	min-width: 398px;
+	text-transform: uppercase;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.2em;
+	font-weight: 400;
+}
+
+.list {
+	font-size: 20px;
+	line-height: 36px;
+	color: #273d46;
+	font-weight: 400;
+}
+
+.list li:nth-child(1) {
+	text-decoration: line-through;
+}
+
+.list li:nth-child(2) {
+	font-weight: 700;
+}
+
+.list li:nth-child(3) {
+	font-style: italic;
+}
+
+.list li:nth-child(4) {
+	text-transform: uppercase;
+}
+
+.height {
+	height: 81px;
+}
+
+.list li:before {
+	content: url(/web/BIG_DZ/css_5/img/check_icon_39.png);
+	padding: 0px 10px 0 0;
+}
+
+.list li:hover {
+	color: #d55a5a;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.list li:hover:before {
+	content: url(/web/DZ/css_7/img/check_icon_red.png);
+	padding: 0px 10px 0 0;
+}
+
+.buffer {
+	position: absolute;
+	margin-left: -12%;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: black;
+}
+
+.buffer2 {}
+
+.list2 {
+	font-size: 20px;
+	line-height: 36px;
+	color: #273d46;
+	font-weight: 400;
+}
+
+.list2 li::before {
+	content: url(/web/BIG_DZ/css_5/img/check_icon_39.png);
+	padding: 0px 10px 0 0;
+}
+
+.list2 li:hover {
+	color: #d55a5a;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.list2 li:hover:before {
+	content: url(/web/DZ/css_7/img/check_icon_red.png);
+	padding: 0px 10px 0 0;
+}
+
+img {
+	margin: 0 50px;
+	margin-top: 12px;
+	width: 199px;
+	box-shadow: 0px 6px 40px 0px rgba(128, 183, 179, 0.54);
+}
+
+.secpic:hover {
+	content: url(/web/BIG_DZ/css_5/img/Screenshot_5.png);
+	box-shadow: 0px 6px 40px 0px rgba(128, 183, 179, 0.54);
+}
+
+.pic:hover {
+	content: url(/web/BIG_DZ/css_5/img/Screenshot_5.png);
+	box-shadow: 0px 6px 40px 0px rgba(128, 183, 179, 0.54);
+}
+
+.pic:active {
+	content: url(/web/BIG_DZ/css_5/img/Screenshot_6.png);
+	box-shadow: 0px 6px 40px 0px rgba(128, 183, 179, 0.54);
+}
+
+.textpic {
+	margin-top: 113px;
+	margin-bottom: -15px;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #000000;
+}
+
+.text1 {
+	display: inline;
+	margin-left: 370px;
+}
+
+.text2 {
+	display: inline;
+	margin-left: 155px;
+}
+
+.p {
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 530;
+	color: black;
+	width: 65%;
+	margin-top: 118px;
+
+}
+
+.fline::first-line {
+	color: red;
+}
+
+.letter::first-letter {
+	color: red;
+	font-size: 25px;
+	font-weight: 700;
+}

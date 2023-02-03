@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.wrapper {
+  max-width: 865px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  margin: 110px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header__title {
+  font-weight: bold;
+  font-size: 36px;
+}
+.header__about {
+  margin-top: 10px;
+  line-height: 20px;
+}
+.header__about b {
+  text-transform: uppercase;
+  font-size: 18px;
+  display: block;
+}
+.header__about p {
+  font-size: 16px;
+  min-width: 300px;
+  max-width: 333px;
+  font-family: "Poppins", sans-serif;
+  line-height: 20px;
+}
+
+.main__ppl {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: auto;
+}
+.main__crew-Saba {
+  margin: 85px auto;
+}
+.main__crew-Skylah {
+  margin-top: -50px;
+}
+.main__crew-Griff {
+  margin: 35px auto;
+}
+.main__crew-Stan {
+  margin-top: -50px;
+}
+
+.crew-job {
+  position: absolute;
+  padding-left: 390px;
+  transform: translateY(100%) rotate(90deg);
+  margin-top: -150px;
+  text-transform: uppercase;
+}
+
+.crew-name {
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 16px;
+  opacity: 0.45;
+}
+
+.photo {
+  width: 222px;
+  height: 312px;
+}
